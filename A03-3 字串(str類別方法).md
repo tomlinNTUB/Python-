@@ -22,6 +22,7 @@ strip()
 find()
 join()
 replace()
+count()
 split()
 ```
 
