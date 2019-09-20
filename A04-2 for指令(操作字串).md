@@ -28,7 +28,7 @@ for s in data:
 ```
 
 ### 測試
-```
+``` python
 請輸入一個字串: abcd
 >> a
 >> b
@@ -51,7 +51,7 @@ for i in range(0, len(data), 2):
 ```
 
 ### 測試
-```
+``` python
 請輸入一個字串: abcd
 >> ab
 >> bc
@@ -83,7 +83,7 @@ print(s)
 ```
 
 ### 測試
-```
+``` python
 請輸入一個字串: abcdefg
 >> bdf
 
