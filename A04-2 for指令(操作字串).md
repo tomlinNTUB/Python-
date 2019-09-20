@@ -22,7 +22,7 @@ for 變數 in 序列物件:
 # 輸入一個字串
 data = input('請輸入一個字串: ')
 
-# 印出一個字串中的每個文字
+# 印出輸入字串中的每個文字
 for s in data:
     print(s)
 ```
@@ -45,7 +45,7 @@ for s in data:
 # 輸入一個字串
 data = input('請輸入一個字串: ')
 
-# 兩兩一組, 印出字串中的文字
+# 兩兩一組, 印出輸入字串中的文字
 for i in range(0, len(data), 2):
     print(data[i:i+2])
 ```
