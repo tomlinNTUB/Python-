@@ -78,6 +78,7 @@ s = ''
 for i in range(1, len(data), 2):
     s = s + data[i]
 
+# 印出新字串
 print(s)
 ```
 
