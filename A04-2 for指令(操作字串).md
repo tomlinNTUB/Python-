@@ -29,7 +29,7 @@ for s in data:
 
 ### 測試
 ```
-abcd
+請輸入一個字串: abcd
 >> a
 >> b
 >> c
@@ -52,11 +52,11 @@ for i in range(0, len(data), 2):
 
 ### 測試
 ```
-abcd
+請輸入一個字串: abcd
 >> ab
 >> bc
 
-abcde
+請輸入一個字串: abcde
 >> ab
 >> cd
 >> e
