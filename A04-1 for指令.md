@@ -25,7 +25,7 @@ for i in range(10):
 ```
 
 ### 測試
-```
+``` python
 0
 1
 2
@@ -49,7 +49,7 @@ for i in range(1, 10):
     print(i) 
 ```
 ### 測試
-```
+``` python
 1
 2
 3
@@ -73,7 +73,7 @@ for i in range(1, 10, 2):
 ```
 
 ### 測試
-```
+``` python
 1
 3
 5
