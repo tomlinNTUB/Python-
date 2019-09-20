@@ -21,7 +21,7 @@ for 變數 in 序列物件:
 
 # 印出0~10(不包括10)的整數
 for i in range(10):
-    print 
+    print(i)
 ```
 
 
