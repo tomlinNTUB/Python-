@@ -2,29 +2,20 @@
 
 
 ### (1) 常用的str類別方法
-```
-lower()
-upper()
 
-endswith()
-startswith()
+在下表中, 假設s, t及k是儲存了文字內容的變數.
 
-isalnum()
-isalpha()
-isdecimal()
-isdigit()
-islower()
-isnumeric()
-isspace()
-isupper()
+| 使用str類別方法 | 意義 |
+|:---------:|:------|
+| s.strip() | 回傳s字串去除前後空白的結果 |
+| s.split(t) | 回傳s字串以t作為分割字元, 進行分割的結果 |
+| s.count(t) | 回傳字串s中有幾個字串s |
+| s.replace(t, k) | 回傳字串s中, 將字串t改成字串k的結果 |
+| s.find(t) | 回傳字串s中第1個字串t出現的位置, 若找不到回傳-1 |
+| s.join(t) | 回傳字串s及t內容交錯合併的結果 |
+| s.lower() | 回傳字串s的內容英文字全部轉為小寫的結果 |
+| s.upper() | 回傳字串s的內容英文字全部轉為大寫的結果 |
 
-strip()
-find()
-join()
-replace()
-count()
-split()
-```
 
 ### (2) 程式範例
 ``` python
