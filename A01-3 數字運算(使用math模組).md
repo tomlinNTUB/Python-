@@ -70,10 +70,10 @@ except:
     exit()
 
 # 計算直角三角形的斜邊, 小數2位, 四捨五入
-c = round(math.sqrt(a**2 + b**2), 2)
+c = math.sqrt(a**2 + b**2)
 
 # 印出斜邊
-print('斜邊=', c)
+print('斜邊=', round(c, 2))
 ```
 
 
