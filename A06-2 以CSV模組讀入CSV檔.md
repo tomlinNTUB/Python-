@@ -13,7 +13,7 @@ import csv
 
 # 在with指令包含的範圍中, 開啟的檔案以file變數表示
 with open('score.csv', 'r', encoding='UTF-8') as file:
-    # 以csv模組功能讀入檔案, 項目分隔符號是逗號, 
+    # 以csv模組功能讀入檔案, 項目分隔符號是逗號 
     data = csv.reader(file, delimiter=',')
 
     # 逐行取出資料, 將各個項目存入各變數中
