@@ -7,7 +7,10 @@
 # 序號(0), 性別(1), 國文(2), 英文(3), 
 # 數學(4), 社會(5), 自然(6), 作文(7)
 #---------------------------------------
+
+# 在with指令包含的範圍中, 開啟的檔案以file變數表示
 with open('score.csv', 'r', encoding='UTF-8') as file:
+    # 逐行處理讀入的資料
     for data in file.readlines():
         # 刪除前後空白, 以逗號分隔資料項目
         data=data.strip()
