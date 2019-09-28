@@ -31,7 +31,7 @@ with open('score.csv', 'r', encoding='UTF-8') as file:
         print('序號:{:03d}\t 國文:{:2d}\t 英文:{:2d}'.format(no, chi, eng))  
 ```
 
-### 輸入資料
+### 輸入資料(score.csv)
 ``` 
 1,男,46,56,42,48,37,10
 2,男,48,51,39,48,43,10
