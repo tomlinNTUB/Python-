@@ -30,7 +30,7 @@ with open('score.csv', 'r', encoding='UTF-8') as file:
         print('序號:{}, 國文:{}, 英文:{}'.format(no, chi, eng))   
 ```
 
-### 輸入資料
+### 輸入資料(score.csv)
 ``` 
 1,男,46,56,42,48,37,10
 2,男,48,51,39,48,43,10
@@ -47,7 +47,7 @@ with open('score.csv', 'r', encoding='UTF-8') as file:
    (略)
 ``` 
 
-### 測試
+### 測試(畫面輸出)
 ``` python
 序號:1, 國文:46, 英文:56
 序號:2, 國文:48, 英文:51
