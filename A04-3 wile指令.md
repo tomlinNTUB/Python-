@@ -63,7 +63,7 @@ k=10000000
 while True:
     if k%183==0 and k%291==0 and k%397==0:
         print(k)
-        break;
+        break
     
     k+=1
 ```
