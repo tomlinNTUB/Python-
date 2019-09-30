@@ -3,10 +3,10 @@
 
 ### (1) for指令的格式
 ``` python
-for指令用來迭代一個可迭代物件, 這些可迭代物件包括list, set, tuple, dict及str等.
+for指令用來逐個處理一個可迭代物件的各個內容, 這些可迭代物件包括list, set, tuple, dict及str等.
 
 如:
-for 變數 in 序列物件:
+for 變數 in 可迭代物件:
     敘述1
     敘述2
     敘述3
