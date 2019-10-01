@@ -28,7 +28,7 @@ with open('score.csv', 'r', encoding='UTF-8') as file:
         lec = int(items[7])
 
         # 印出資料
-        print('序號:{:03d}\t 國文:{:2d}\t 英文:{:2d}'.format(no, chi, eng))  
+        print('序號:{:0>3d}\t 國文:{:2d}\t 英文:{:2d}'.format(no, chi, eng))  
 ```
 
 ### 輸入資料(score.csv)
