@@ -1,7 +1,7 @@
 # A05-4 由字串切割而成的list
 
 
-### (1) 字串切割可用以下方式操作
+## (1) 字串切割可用以下方式操作
 
 | 操作敘述 | 意義 |
 |---------|------|
@@ -9,7 +9,7 @@
 | s.split(k) | 將字串s的內容依k的值為切割點分切, 成為一個list |
 
 
-### (2) 程式範例
+## (2) 程式範例
 ``` python
 #----------------------
 # 切割字串成為list
@@ -47,7 +47,7 @@ With legacies as varied as its adventure landscape and spirited traditions thriv
 
 
 
-### (3) 程式範例
+## (3) 程式範例
 ``` python
 # coding=utf-8
 
