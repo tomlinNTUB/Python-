@@ -21,7 +21,7 @@ with open('score.csv', 'r', encoding='UTF-8') as infile, open('output.csv', 'w',
 ```
 
 ### 輸入資料(score.csv)
-``` 
+``` python
 1,男,46,56,42,48,37,10
 2,男,48,51,39,48,43,10
 3,男,50,52,47,41,42,8
