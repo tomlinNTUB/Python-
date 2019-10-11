@@ -33,14 +33,9 @@ set:   {'D', 'C', 'A', 'B', 'E'}
 
 ``` python
 #-------------------
-# 一個str
-#-------------------
-s = 'ABDEBEAC'
-
-#-------------------
 # 一個list
 #-------------------
-mylist = [s[i] for i in range(len(s))]
+mylist = [k for k in 'ABDEBEAC']
 
 #-------------------
 # 由list生成set
