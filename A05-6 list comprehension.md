@@ -69,6 +69,7 @@ print(mylist)
 # 以list comprehension方式建立的list
 #------------------------------------
 s = 'A2B4C6D7E4F3G4H5I6'
+
 mylist = [s[i:i+2] for i in range(len(s)-1)]
 
 #------------------------------------
