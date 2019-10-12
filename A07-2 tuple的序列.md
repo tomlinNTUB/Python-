@@ -103,7 +103,7 @@ for item in scores:
 
 
 
-## (3) 程式範例(list中的tuple)
+## (3) 程式範例(tuple中的list)
 ``` python
 #---------------------------------
 # 建立一個存放多個成績的tuple
