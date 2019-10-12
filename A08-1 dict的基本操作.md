@@ -28,7 +28,7 @@ d['7'] = '應外系'
 | del d[key] | 刪除字典d的某個鍵值元素 |
 | list(d) | 將字典d的所有鍵值以list型式回傳 |
 | d.clear() | 刪除字典d的所有元素 |
-
+| d.items() | 回傳可遍歷的[(key, value), (key, value)...] |
 
 ## (3) 程式範例
 ``` python
