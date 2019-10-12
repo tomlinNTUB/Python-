@@ -121,12 +121,12 @@ for s in scores:
 #---------------------------
 # 依key排序後產生另一個list
 #---------------------------
-sortCnt = [(k, cnt[k]) for k in sorted(cnt.keys())] 
+cnt = sorted(cnt.items(), key=lambda d: d[0]) 
 
 #---------------------------
 # 印出結果
 #---------------------------
-for s in sortCnt:
+for s in cnt:
     print('分數{}, 人數:{}'.format(s[0], s[1]))
 ```
 
