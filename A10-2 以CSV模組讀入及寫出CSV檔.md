@@ -10,14 +10,36 @@
 
 # 輸入檔infile, 輸出檔outfile
 with open('score.csv', 'r', encoding='UTF-8') as infile, open('output.csv', 'w', encoding='UTF-8') as outfile:
-    # 讀入資, 逐筆寫出   
-    for data in infile.readlines():
-        # 顯示資料
-        print(data.strip())
+    # 放置待輸出資料
+    output = []
 
-        # 寫出資料
-        outfile.write(data)
-  
+    # 讀入資料, 逐行處理資料   
+    for data in infile.readlines():        
+        # 去除資料前後空白及跳行符號
+        data = data.strip()
+
+        # 以逗號分割各項目
+        data = data.split(',')
+
+        # 將各科成績轉為整數
+        chi = int(data[2])
+        eng = int(data[3])
+        mat = int(data[4])
+        soc = int(data[5])
+        nat = int(data[6])
+        com = int(data[7])
+
+        # 將資料加入待輸出資料中
+        output.append('{},{},{}\n'.format(data[0], data[1], chi+eng+mat+soc+nat+com))
+
+    # 去除最後一筆的跳行符號
+    output[-1] = output[-1].strip()
+
+    # 將待輸出資料寫出至檔案
+    outfile.writelines(output) 
+
+    # 列印訊息
+    print('處理完成!')   
 ```
 
 ### 輸入資料(score.csv)
@@ -34,22 +56,32 @@ with open('score.csv', 'r', encoding='UTF-8') as infile, open('output.csv', 'w',
 10,男,43,55,49,36,50,10
     .
     .
-   (略)
+397,女,42,46,55,39,35,8
+398,女,43,39,55,44,43,8
+399,女,35,56,51,34,35,8
+400,女,42,33,55,50,41,12
+401,男,35,49,51,32,33,8
+402,女,35,35,48,27,28,8
 ``` 
 
 ### 輸出資料(output.csv)
 ``` python
-1,男,46,56,42,48,37,10
-2,男,48,51,39,48,43,10
-3,男,50,52,47,41,42,8
-4,女,40,56,45,46,45,8
-5,男,43,41,29,35,34,10
-6,女,44,52,50,41,46,8
-7,女,44,56,47,46,41,8
-8,男,50,56,47,46,35,8
-9,男,56,60,30,48,41,8
-10,男,43,55,49,36,50,10
+1,男,239
+2,男,239
+3,男,240
+4,女,240
+5,男,192
+6,女,241
+7,女,242
+8,男,242
+9,男,243
+10,男,243
     .
     .
-   (略)
+397,女,225
+398,女,232
+399,女,219
+400,女,233
+401,男,208
+402,女,181
 ``` 
