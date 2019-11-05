@@ -112,7 +112,7 @@ s2= [1, 2, 3, ['*', 'b', 'c']]
 
 
 
-## (4) 用copy.deepcopy(s1), 用深層copy, 兩者的每一層都是不同位址
+## (4) 用s2 = copy.deepcopy(s1)深層copy, 兩者的每一層都是不同位址
 ``` python
 import copy
 
