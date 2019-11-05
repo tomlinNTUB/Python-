@@ -1,4 +1,4 @@
-# A07-3 tuple的序列
+# A07-4 tuple的序列
 
 
 ## (1) 程式範例(tuple中的tuple)
