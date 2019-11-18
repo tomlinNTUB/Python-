@@ -1,0 +1,32 @@
+(1)1個空白
+text='With legacies as varied as its adventure landscape and spirited traditions thriving alongside the cream of Asian sophistication'
+
+
+
+(2)1個@ 或 1個$ 或 1個^
+text='With@legacies@as@varied$as$its$adventure$landscape$and$spirited$traditions^thriving^alongside^the^cream^of^Asian$sophistication'
+
+
+
+(2)1個逗號 加 1個空白
+text='With, legacies, as, varied, as, its, adventure, landscape, and, spirited, traditions, thriving, alongside, the, cream, of, Asian, sophistication'
+
+
+
+(3)1個逗號 加 0個或多個空白
+text='With,legacies, as,   varied,   as, its,     adventure,landscape, and, spirited,traditions,thriving, alongside, the, cream, of, Asian, sophistication'
+
+
+
+(4)2個減號(-)
+text='With--legacies--as--varied--as--its--adventure--landscape--and--spirited--traditions--thriving--alongside--the--cream--of--Asian--sophistication'
+
+
+
+(5)2個或更多減號(-)
+text='With--legacies--as--varied--as--its--adventure----landscape----and--spirited--traditions-----thriving--alongside--the--cream--of--Asian--sophistication'
+
+
+
+(6)2個或更多減號(-) 或 1個或多個井字號(#)
+text='With--legacies#as--varied--as--its--adventure###landscape----and#spirited--traditions####thriving--alongside--the--cream--of--Asian--sophistication'
