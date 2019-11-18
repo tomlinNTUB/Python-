@@ -30,3 +30,5 @@ text='With--legacies--as--varied--as--its--adventure----landscape----and--spirit
 
 (6)2個或更多減號(-) 或 1個或多個井字號(#)
 text='With--legacies#as--varied--as--its--adventure###landscape----and#spirited--traditions####thriving--alongside--the--cream--of--Asian--sophistication'
+
+
